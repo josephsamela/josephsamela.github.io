@@ -1,0 +1,38 @@
+body{
+    background: yellow;
+}
+
+#icon{
+    height: 3em;
+}
+
+
+h1{
+    font-family: 'Monoton', cursive;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 544px) {
+    h1{font-size: 17vw}
+}
+
+@media (min-width: 544px) {
+    h1{font-size: 9vw}
+}
+
+#social-media{
+    margin-top: 2em;
+}
+
+#content{
+    padding: 2em;
+    padding-top: 0em;
+    padding-bottom: 0em;
+}
+
+#content-item{
+    margin-top: 1em;
+}
