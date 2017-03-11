@@ -1,25 +1,31 @@
-body{
-    background: yellow;
-}
-
 #icon{
     height: 3em;
 }
 
-
 h1{
     font-family: 'Monoton', cursive;
+    color: white;
+    mix-blend-mode: difference;
 }
 
 h2{
     font-family: 'Raleway', sans-serif;
+    font-size: 40pt;
+    color: white;
+    mix-blend-mode: overlay;
 }
 
-@media (max-width: 544px) {
+h2:hover{
+    color: white;
+    mix-blend-mode: difference;
+    mix-blend-mode: screen;
+}
+
+@media (max-width: 768px) {
     h1{font-size: 17vw}
 }
 
-@media (min-width: 544px) {
+@media (min-width: 768px) {
     h1{font-size: 9vw}
 }
 
@@ -28,11 +34,11 @@ h2{
 }
 
 #content{
-    padding: 2em;
-    padding-top: 0em;
-    padding-bottom: 0em;
+    padding-top: 0.6em;
+    padding-bottom: 0.5em;
 }
 
-#content-item{
-    margin-top: 1em;
+a:link {
+    color: black;
+    text-decoration:  none;
 }
