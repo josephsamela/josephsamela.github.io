@@ -45,3 +45,10 @@ a:link {
     color: black;
     text-decoration:  none;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
