@@ -24,6 +24,10 @@ h2:hover{
 mix-blend-mode: difference;
 }
 
+h2:active{
+mix-blend-mode: difference;
+}
+
 @media (max-width: 768px) {
     h1{font-size: 17vw}
 }
