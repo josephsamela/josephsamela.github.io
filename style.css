@@ -15,16 +15,15 @@ h2{
     mix-blend-mode: overlay;
 }
 
-h2:hover{
-    mix-blend-mode: difference;
-}
-
 @media (max-width: 768px) {
     h1{font-size: 17vw}
 }
 
 @media (min-width: 768px) {
     h1{font-size: 9vw}
+    h2:hover{
+    mix-blend-mode: difference;
+    }
 }
 
 #social-media{
