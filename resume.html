@@ -16,7 +16,7 @@
 	<script src="./scripts/share-ac8682e4c1bd105010f526375b62a481.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
-</head>
+	</head>
 
 
 
@@ -39,6 +39,13 @@
 	.company_url:hover {
 		color: #1a1a1a;
 	}
+
+	#themetoggle {
+    float: right;
+	margin: 1.25em;
+	mix-blend-mode: difference;
+	}
+
 </style>
 <!-- CSS THEME -->
 
@@ -46,12 +53,19 @@
 
 <body onload="changeTheme();" class="henry-theme  not-pdf spacing-normal font-proxima-nova custom" style="padding-top: 0px; font-family: 'PT Serif', serif;">
 
+	<!--
 	<div style="float:right">
-		<button id="changeTheme" type="button" value="Change Theme" onclick="changeTheme();">
-			<h3>
+		<button id="changeTheme" type="button" value="Change Theme" onclick="changeTheme()">
+			<img id="changeTheme" src="icons/moon.svg">
+			<h3>	
 				Dark/Light Theme
 			</h3>
 		</button>
+	</div>
+-->
+
+	<div id="themetoggle">
+		<input name="ChangeTheme" id="sun" type="image"	src="icons/sun.svg" alt="" onclick="changeTheme();" tabindex="8"  />
 	</div>
 
 
@@ -112,7 +126,7 @@
 									<div class="description">
 										<p>GN&#38C Systems Engineer at Charles Stark Draper Laboratory in Cambridge, MA. Focus of work on inertial guidance systems - development, testing and analysis.</p>
 										<h4><i>Dream Chaser</i></h4>
-										<p2>Member of team developing software for preforming for fault injection/tolorancing of Dream
+										<p2>Member of team developing software for performing for fault injection/tolerancing of Dream
 											Chaser flight computer.</p2>
 										<h4><i>Minuteman III</i></h4>
 										<p2>Actively develop/maintain multiple software systems (MATLAB, LabVIEW) for control and interface of inertial instruments,
