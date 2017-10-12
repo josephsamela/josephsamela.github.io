@@ -60,6 +60,17 @@ function padZero(str, len) {
 var color = getRandomColor();
 var compliment = invertColor(color);
 
+
 // Set background to color, set header and content to compliment
 document.body.style.background = color;
 document.body.style.color = compliment;
+
+
+// Change mobile chrome navbar color to compliment
+var allMetaElements = document.getElementsByTagName('meta');
+for (var i=0; i<allMetaElements.length; i++) { 
+  if (allMetaElements[i].getAttribute("name") == "theme-color") { 
+     allMetaElements[i].setAttribute('content', compliment);
+     break;
+  } 
+} 
