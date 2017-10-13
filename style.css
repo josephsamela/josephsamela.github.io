@@ -12,6 +12,14 @@ h2{
     font-size: 40pt;
 }
 
+h2:hover {
+    opacity: 0.75;
+}
+
+#icon:hover {
+    opacity: 0.75
+}
+
 @media (max-width: 768px) {
     h1{font-size: 17vw}
     h2{vertical-align: center}
