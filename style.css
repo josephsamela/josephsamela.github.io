@@ -17,7 +17,8 @@ h2:hover {
 }
 
 #icon:hover {
-    opacity: 0.5
+    opacity: 0.5;
+    border: 1px solid transparent;
 }
 
 @media (max-width: 768px) {
