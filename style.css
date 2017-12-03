@@ -1,53 +1,68 @@
-#icon{
-    height: 3em;
+h1 {
+  font-family: 'CabinSketch', cursive;
+  font-size: 210pt;
+  text-align: center;
 }
 
-h1{
-    font-family: 'Monoton';
+h2 {
+  font-family: 'OpenSan-Bold', sans-serif;
+  font-size: 2em;
+  margin: 20px 0px 20px 0px;
+  text-align: center;
 }
 
-h2{
-    font-family: 'Raleway';
-    font-weight: 900;
-    font-size: 40pt;
+#banner {
+  margin-bottom: 1em;
+  text-align: center;
 }
 
-h2:hover {
-    opacity: 0.5;
+#button1 {
+  text-align: center;
 }
 
-#icon:hover {
-    opacity: 0.5;
-    border: 1px solid transparent;
+#button2 {
+  text-align: center;
 }
 
-@media (max-width: 768px) {
-    h1{font-size: 17vw}
-    h2{vertical-align: center}
+#button3 {
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-    h1{font-size: 9vw}
-    h2{margin-left: 0.5em}
+#content {
+  justify-content: center;
 }
 
-#social-media{
-    margin-top: 2em;
+#card {
+  background-color:black;
+  padding: 1em;
+  margin-top: 3em;
 }
 
-#content{
-    padding-top: 0.6em;
-    padding-bottom: 0.5em;
+#photo {
+  padding:0px;
+  margin:0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
-a:link {
-    color: inherit;
-    text-decoration:  none;
+p {
+  font-family: 'OpenSan-Bold', sans-serif;
+  font-size: 16pt;
+  margin: 0px;
 }
 
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway-ExtraBold.ttf') format('truetype');
+    font-family: 'CabinSketch';
+    src: url('fonts/CabinSketch-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSan-Bold';
+    src: url('fonts/OpenSans-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

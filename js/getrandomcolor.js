@@ -24,7 +24,7 @@ function getRandomColor() {
 
   // creating the hex value by concatenatening the string values
   var hexColor = "#" + hexR + hexG + hexB;
-    
+
   return hexColor.toUpperCase();
 }
 
@@ -62,15 +62,84 @@ var compliment = invertColor(color);
 
 
 // Set background to color, set header and content to compliment
-document.body.style.background = color;
-document.body.style.color = compliment;
+// document.body.style.background = color;
+// document.body.style.color = compliment;
 
+document.body.style.background = "#FFCC00";
+document.body.style.color = "#000000";
+
+var background = "#FFCC00";
+var secondary = "#000000";
+
+document.getElementById("content").style.color = background;
+
+document.getElementById("button1").style.color = secondary;
+document.getElementById("button2").style.color = secondary;
+document.getElementById("button3").style.color = secondary;
+document.getElementById("button1").style.background = background;
+document.getElementById("button2").style.background = background;
+document.getElementById("button3").style.background = background;
+
+function button(num) {
+
+  var background = document.body.style.background
+  var secondary = document.body.style.color
+
+  // Button 1 pressed
+  if (num === 1) {
+    document.getElementById("button1").style.color = background;
+    document.getElementById("button2").style.color = secondary;
+    document.getElementById("button3").style.color = secondary;
+
+    document.getElementById("button1").style.background = "#000000";
+    document.getElementById("button2").style.background = background;
+    document.getElementById("button3").style.background = background;
+  }
+  // Button 2 pressed
+  if (num === 2) {
+    document.getElementById("button1").style.color = secondary;
+    document.getElementById("button2").style.color = background;
+    document.getElementById("button3").style.color = secondary;
+
+    document.getElementById("button1").style.background = background;
+    document.getElementById("button2").style.background = secondary;
+    document.getElementById("button3").style.background = background;
+  }
+  // Button 3 pressed
+  if (num === 3) {
+    document.getElementById("button1").style.color = secondary;
+    document.getElementById("button2").style.color = secondary;
+    document.getElementById("button3").style.color = background;
+
+    document.getElementById("button1").style.background = background;
+    document.getElementById("button2").style.background = background;
+    document.getElementById("button3").style.background = secondary;
+  }
+  // Import project content
+  if (num === 1) {
+    $(function(){
+         $("#content").load("projects.html");
+       });
+  }
+  // Import blog content
+  if (num === 2) {
+    $(function(){
+         $("#content").load("blog.html");
+       });
+  }
+  // Import about content
+  if (num === 3) {
+    $(function(){
+         $("#content").load("about.html");
+       });
+  }
+}
 
 // Change mobile chrome navbar color to compliment
 var allMetaElements = document.getElementsByTagName('meta');
-for (var i=0; i<allMetaElements.length; i++) { 
-  if (allMetaElements[i].getAttribute("name") == "theme-color") { 
+for (var i=0; i<allMetaElements.length; i++) {
+  if (allMetaElements[i].getAttribute("name") == "theme-color") {
      allMetaElements[i].setAttribute('content', compliment);
      break;
-  } 
-} 
+  }
+}

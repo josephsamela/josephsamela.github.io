@@ -1,120 +1,77 @@
-<!--     
-Hi! If you're reading this, you're probably interested in how I made this site.
-Head + content is aligned with twitter bootstrap (mobile first!).
-I have a javascript snippet that runs on page load and generates a random background color. 
-The fonts have CSS mix-blend-mode attributes (sorry IE!) resulting in dynamically generated color palettes.
-
-Thanks for looking at my site!
-- Joe Samela
--->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Joseph Samela</title>
-        <!--Favicon-->
-        <link rel="shortcut icon"href="favicon.png"type="x-icon">
-        <link rel="icon" href="favicon.png"type="x-icon">
-        <!--Apple Icons-->
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!--Chrome Mobile Navbar Color-->
-        <meta name="theme-color" content="#000000">
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <!-- Custom Style Sheet -->
-        <link rel="stylesheet" href="style.css">
-        <!-- Fonts -->
-        <!-- <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
 
-        <!-- Mandatory Google AdSense script -->
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script>
-          (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-8179550935546379",
-            enable_page_level_ads: true
-          });
-        </script>
+<head>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom Style Sheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-    </head>
+<body>
 
-    <body>
-        <center>
-            <div id="header">
-                <h1>JOSEPH</h1>
-                <h1>SAMELA</h1>
-            </div>
-        </center>
-        <div id="social-media">
-            <center>
-                <div id="social" class="col-xs-12">
-                    <div class="col-sm-3"></div>
-                        <div class="col-sm-6" style="padding: 0px">
-                            <a href="https://github.com/JosephSamela">
-                                <img class="col-xs-3" id="icon" src="icons/github.svg">
-                            </a>
-                            <a href="https://www.youtube.com/channel/UCpi9d158eNHx1bXs5ZzXPUA">
-                                <img class="col-xs-3" id="icon" src="icons/youtube.svg">
-                            </a>
-                            <a href="https://www.instagram.com/josephsamela/">
-                                <img class="col-xs-3" id="icon" src="icons/instagram.svg">
-                            </a>
-                            <a href="https://twitter.com/JosephSamela">
-                                <img class="col-xs-3" id="icon" src="icons/twitter.svg">
-                            </a>
-                        </div>
-                    <div class="col-sm-3"></div>
-                </div>
-            </center>
+  <div id="banner" class="col-xs-12">
+    <div class="col-sm-5"></div>
+    <div class="col-xs-12 col-sm-2">
+      <h1>JS</h1>
+    </div>
+    <div class="col-sm-5"></div>
+  </div>
+
+  <div id="navbar" class="col-xs-12">
+    <div class="col-sm-3"></div>
+    <div class="col-xs-12 col-sm-6">
+      <a href="#" onclick="button(1)">
+        <div id="button1" class="col-xs-4">
+          <h2>PROJECTS</h2>
         </div>
-        
-        <div class="col-xs-1 col-sm-3 col-md-3"></div>
-        <div id="content" class="col-xs-12 col-sm-6">
-
-            <div id="content" class="col-xs-10">
-                <div id="content-item">
-                    <a href="https://github.com/JosephSamela">
-                        <h2>PROJECTS</h2>
-                    </a>
-                </div>
-            </div>
-
-            <div id="content" class="col-xs-12">
-                <div id="content-item">
-                    <a href="http://foryourbrain.net/">
-                        <h2>BLOG</h2>
-                    </a>
-                </div>
-            </div>
-
-            <div id="content" class="col-xs-12">
-                <div id="content-item">
-                    <a href="resume.html">
-                        <h2>RESUME</h2>
-                    </a>
-                </div>
-            </div>
-
-            <div id="content" class="col-xs-12">
-                <div id="content-item">
-                    <a href="mailto:josephsamela@gmail.com">
-                        <h2>CONTACT</h2>
-                    </a>
-                </div>
-            </div>
-
+      </a>
+      <a href="#" onclick="button(2)">
+        <div id="button2" class="col-xs-4">
+          <h2>BLOG</h2>
         </div>
-        <div class="col-xs-1 col-sm-3 col-md-3"></div>
+      </a>
+      <a href="#" onclick="button(3)">
+        <div id="button3" class="col-xs-4">
+          <h2>ABOUT</h2>
+        </div>
+      </a>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
 
-    </body>
-    <!--add boostrap files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!--generate random background color -->
-    <script src="js/getrandomcolor.js"></script>
+  <div id="content" class="col-xs-12">
+    <div class="col-sm-3"></div>
+
+    <div class="col-xs-12 col-sm-6">
+
+      <div id="card" class="col-xs-12">
+        <div id="photo" class="col-xs-6">
+          <img src="portrait.jpg" style="height:100%">
+        </div>
+        <div id="bio" class="col-xs-6">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate.</p>
+        </div>
+      </div>
+
+      <div id="card" class="col-xs-12">
+        <h2>RESUME</h2>
+      </div>
+
+    </div>
+
+    <div class="col-sm-3"></div>
+  </div>
+
+</body>
+
+<!-- Import JQUERY -->
+<script type="text/javascript" src="scripts/jquery-3.2.1.slim.min.js"></script>
+<!--generate random background color -->
+<script src="js/getrandomcolor.js"></script>
+<!--add boostrap files -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+
 </html>
