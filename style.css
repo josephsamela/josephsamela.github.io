@@ -1,3 +1,9 @@
+
+body {
+  font-family: 'OpenSan-Bold', sans-serif;
+  margin: 2em;
+}
+
 h1 {
   font-family: 'CabinSketch', cursive;
   font-size: 210pt;
@@ -5,10 +11,27 @@ h1 {
 }
 
 h2 {
-  font-family: 'OpenSan-Bold', sans-serif;
   font-size: 2em;
-  margin: 20px 0px 20px 0px;
-  text-align: center;
+}
+
+h3 {
+  font-size: 4em;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+
+p {
+  font-size: 16pt;
+  margin: 0px;
+  margin-bottom: 1em;
+}
+
+a {
+  color:inherit;
+}
+
+a:hover {
+  color: inherit;
 }
 
 #banner {
@@ -18,39 +41,74 @@ h2 {
 
 #button1 {
   text-align: center;
+  padding-bottom: 1em;
+  border: thick solid transparent;
+}
+#button1:hover {
+  border: thick solid black;
 }
 
 #button2 {
   text-align: center;
+  padding-bottom: 1em;
+  border: thick solid transparent;
 }
+#button2:hover {
+  border: thick solid black;
+}
+
 
 #button3 {
   text-align: center;
+  padding-bottom: 1em;
+  border: thick solid transparent;
 }
+#button3:hover {
+  border: thick solid black;
+}
+
 
 #content {
   justify-content: center;
 }
 
 #card {
-  background-color:black;
   padding: 1em;
+  padding-bottom: 1em;
   margin-top: 3em;
+  /*background-color:black;*/
+  color:black;
+  border: thick solid black;
+}
+
+#cardnumber {
+  font-weight: bold;
 }
 
 #photo {
   padding:0px;
   margin:0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  width: 100%;
+  /*border: thick solid black;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;*/
 }
 
-p {
-  font-family: 'OpenSan-Bold', sans-serif;
-  font-size: 16pt;
+#projetnumber {
+  padding:0px;
+  text-align: center;
+}
+
+#socialmedia {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.resume {
   margin: 0px;
+  text-align: center;
+  padding: 2em;
 }
 
 @font-face {

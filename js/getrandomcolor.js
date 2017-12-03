@@ -55,11 +55,9 @@ function padZero(str, len) {
   return (zeros + str).slice(-len);
 }
 
-
 // Generate Random Color and its compliment
 var color = getRandomColor();
 var compliment = invertColor(color);
-
 
 // Set background to color, set header and content to compliment
 // document.body.style.background = color;
@@ -87,6 +85,8 @@ function button(num) {
 
   // Button 1 pressed
   if (num === 1) {
+    document.getElementById("content").style.color = background;
+
     document.getElementById("button1").style.color = background;
     document.getElementById("button2").style.color = secondary;
     document.getElementById("button3").style.color = secondary;
@@ -107,6 +107,8 @@ function button(num) {
   }
   // Button 3 pressed
   if (num === 3) {
+    document.getElementById("content").style.color = background;
+
     document.getElementById("button1").style.color = secondary;
     document.getElementById("button2").style.color = secondary;
     document.getElementById("button3").style.color = background;
@@ -117,23 +119,29 @@ function button(num) {
   }
   // Import project content
   if (num === 1) {
+    console.log("import button 1")
     $(function(){
          $("#content").load("projects.html");
        });
   }
   // Import blog content
   if (num === 2) {
+    console.log("import button 2")
     $(function(){
          $("#content").load("blog.html");
        });
   }
   // Import about content
   if (num === 3) {
+    console.log("import button 3")
     $(function(){
          $("#content").load("about.html");
        });
   }
 }
+
+
+
 
 // Change mobile chrome navbar color to compliment
 var allMetaElements = document.getElementsByTagName('meta');
