@@ -13,7 +13,7 @@
 	<link href="./scripts/base-e173c1c24b4e290ed6faafd12d808253.css" media="all" rel="stylesheet">
 	<title>Joseph Samela's Resume</title>
 	<link rel="shortcut icon" href="favicon.png">
-	<script src="./scripts/share-ac8682e4c1bd105010f526375b62a481.js"></script>
+	
 	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 	</head>
@@ -40,12 +40,12 @@
 		color: #1a1a1a;
 	}
 
-	#themetoggle {
+	.themetoggle {
     float: right;
 	margin: 1.25em;
-	mix-blend-mode: difference;
+	mix-blend-mode:difference;
 	}
-
+    
 </style>
 <!-- CSS THEME -->
 
@@ -55,7 +55,7 @@
 
 
 
-	<div id="themetoggle">
+	<div class="themetoggle">
 		<input name="ChangeTheme" id="sun" type="image"	src="icons/sun.svg" alt="" onclick="changeTheme();" tabindex="8"  />
 	</div>
 
@@ -63,15 +63,10 @@
 	<div id="resume" class="henry">
 		<div class="inside">
 			<h1 id="name">Joseph M. Samela, III</h1>
-			<h2 id="title" class="current-position">Software Engineer</h2>
 			<ul class="subContact">
 				<li><a href="tel:+1-203-804-3376">(203) 804-3376</a></li>
 				<li>|</li>
-				<li><a id="contact-email" class="color" href="mailto:josephsamela@gmail.com"><span class="pdf-hide">Email</span><span class="pdf-show">josephsamela@gmail.com</span></a></li>
-				<li>|</li>
-				<li class="skill"><a href="http://ForYourBrain.net">Blog</a></li>
-				<li>|</li>
-				<li class="skill"><a href="https://github.com/JosephSamela">Github</a></li>
+				<li><a id="contact-email" class="color" href="mailto:josephsamela@gmail.com"><span class="pdf-hide">josephsamela@gmail.com</span><span class="pdf-show">josephsamela@gmail.com</span></a></li>
 			</ul>
 		</div>
 
@@ -85,12 +80,8 @@
 						<div id="education" class="list">
 							<ul id="educations">
 								<li class="education">
-									<h3 class="title">Worcester Polytechnic Institute</h3>
-									<h3 class="subtitle">Bachelor of Science in Mechanical Engineering, Minor in Physics</h3>
-									<h3 class="time">Class of 2016</h3>
-									<div class="description">
-										</p>
-									</div>
+                                    <h3 class="time"><b>Worcester Polytechnic Institute (WPI),</b> Worcester, MA</h3>
+                                    <h3 class="time"><b>Bachelor of Science in Mechanical Engineering, Minor in Physics,</b> Class of 2016</h3>
 								</li>
 							</ul>
 						</div>
@@ -108,24 +99,33 @@
 						<div id="experience" class="list">
 							<ul id="experiences">
 								<li class="experience">
-									<h3 class="title"><a class="company_url" href="http://www.draper.com" target="_blank">Draper Labratory</a></h3>
-									<h3 class="subtitle">Software Engineer</h3>
-									<h3 class="time">May 2016 - Present</h3>
-									<div class="description">
-										<p>Software Engineer at Charles Stark Draper Laboratory in Cambridge, MA. Focus of work on inertial guidance systems - development, testing and analysis.</p>
-										<h4><i>Dream Chaser</i></h4>
-										<p2>Member of team developing software for performing for fault injection/tolerancing of Dream
-											Chaser flight computer.</p2>
-										<h4><i>Minuteman III</i></h4>
-										<p2>Actively develop/maintain multiple software systems (MATLAB, LabVIEW) for control and interface of inertial instruments,
-											equipment and data.</p2>
-									</div>
-								</li>
+                                    <h3 class="time"><b>Draper Labratories</b><i> Software Engineer, May 2016 - Present</i></h3>
+									<ul class="description">
+                                        <li style="margin-top:0.5em">• Lead developer of MATLAB data processing/visualization application used by program engineers to investigate accelerometer sensor operation/performance.</li>
+                                        <li style="margin-top:0.5em">• Member of team developing distributed computing system to qualify SNC Dreamchaser Flight Computers. Includes multiple server applications controllable through standardized TCP/IP API for Data Acquisition, DC Power, Serial Comms, GPS Timing & Sync, Digital IO and more.</li>
+                                        <li style="margin-top:0.5em">• Initiated and developed Data Dashboard application for remote monitoring of system operation. Python back-end (Flask) pulls data from test equipment monitoring APIs. Front-end rendered in browser, built with Bulma.io framework.</li>
+                                        <li style="margin-top:0.5em">• Programmed suite of automated Verification & Validation unit tests to expedite software development and integration.</li>
+                                        <li style="margin-top:0.5em">• Led development of Elasticsearch database to enable rapid data search and discovery.</li>
+                                        <li style="margin-top:0.5em">• Developed client application enabling GUI control of Relays, PPS and Standard + MIL-STD-1553 Discretes.</li>
+                                        <li style="margin-top:0.5em">• Mechanical design/drafting with Solidworks and CREO. Projects include design of accelerometer test fixture, cable/shorting plug drawings + rapid prototype card edge connector harness.</li>
+                                    </ul>
+                                </li>
+                                <li class="experience">
+                                    <h3 class="time"><b>US Fish & Wildlife Services</b><i> Biological Intern, May 2014 - August 2014</i></h3>
+									<ul class="description">
+                                        <li style="margin-top:0.5em">Lived and worked in national wilderness as team member monitoring endangered shorebird populations. Monomoy National Wildlife Refuge in Chatham, MA.</li>
+                                    </ul>
+                                </li>
+                                <li class="experience">
+                                    <h3 class="time"><b>CT Agricultural Experiment Station</b><i> Plant Pathology Intern, October 2011 - June 2012</i></h3>
+									<ul class="description">
+                                        <li style="margin-top:0.5em">Internship with CT Agricultural Experiment Station’s Department of Plant Pathology, conducted experiments investigating Sudden Vegetative Dieback of Connecticut salt marshes.</li>
+                                    </ul>
+                                </li>
+                            </ul>
 						</div>
 					</section>
-				</section>
-
-				<div class="clearfix"></div>
+                    <div class="clearfix"></div>
 				</section>
 
 
@@ -136,40 +136,19 @@
 					<section class="sectionRight">
 						<div id="experience" class="list">
 							<ul id="experiences">
-								<li class="experience">
-									<h3 class="title">NASA Centennial Challenge</h3>
-									<h3 class="subtitle"><a class="company_url" href="http://users.wpi.edu/~wpisdc" target="_blank">Cube Quest Deep Space Derby</a></h3>
-									<h3 class="time">Aug 2015 - May 2016</h3>
-									<div class="description">
-										<p>Member of a 12-person team designing a 6U CubeSat to compete for a 2018 Orion Launch. Electrical Group lead in
-											charge of power supply and solar array. Mission will demonstrate the capabilities of CubeSat deep space communications.
-											<a href="CQDP.pdf">Learn More.</a></p>
-									</div>
-								</li>
-								<li class="experience">
-									<h3 class="title">Major Qualifying Project</h3>
-									<h3 class="subtitle">Airborne Wind Energy</h3>
-									<h3 class="time">May 2015 - Nov 2015</h3>
-									<div class="description">
-										<p>Member of a 4-person team, developed a low-cost water pump system for impoverished rural communities that operates
-											using airborne wind energy. Produced accurate 3D Solidworks models to expedite an iterative design process.
-											<a
-											 href="MQP.pdf"> Learn More.</a>
-										</p>
-									</div>
-								</li>
-								<li class="experience">
-									<h3 class="title">Interactive Qualifying Project</h3>
-									<h3 class="subtitle">Costa Rica, San Jose</h3>
-									<h3 class="time">Mar 2015 - May 2015</h3>
-									<div class="description">
-										<p>Developed financing strategies for Ener-G Tech Investments to encourage energy efficiency projects including carbon
-											offset credits, sustainable banking and crowdfunding.</a>
-										</p>
-
-									</div>
-								</li>
-							</ul>
+                                <li class="experience">
+                                    <h3 class="time"><b>Major Qualifying Project</b><i> Airborn Wind Energy, May 2015 - November 2015</i></h3>
+									<ul class="description">
+                                        <li style="margin-top:0.5em">Member of a 4-person team, developed a low-cost water pump system for impoverished rural communities that operates using airborne wind energy. Produced accurate 3D models to expedite an iterative design process. Conducted flight-testing at Blue Hills Observatory in Milton, MA.</li>
+                                    </ul>
+                                </li>
+                                <li class="experience">
+                                    <h3 class="time"><b>Interactive Qualifying Project</b><i> Carbon Offset Credits, March 2015 - May 2015</i></h3>
+									<ul class="description">
+                                        <li style="margin-top:0.5em">Developed financing strategies for Ener-G Tech Investments to encourage energy efficiency projects including carbon offset credits, sustainable banking and crowdfunding. Conducted interviews with domestic and international industry professionals to fast track development of new policies that benefited all parties.</li>
+                                    </ul>
+                                </li>
+                            </ul>
 						</div>
 					</section>
 					<div class="clearfix"></div>
@@ -201,33 +180,38 @@
 					<section class="sectionRight">
 						<div id="skills" class="list">
 							<ul class="skills">
-								<li class="skill">Python / MATLAB / LabVIEW / HTML / CSS / Javascript / Processing (Java) / Arduino (C)</li>
-								<li class="skill">Solidworks / CREO(Pro-E) / Photoshop / Premiere / FCPX / Linux / GIT / SVN</li>
+								<li class="skill"><b>Languages:</b> Python, HTML/CSS/Javascript, MATLAB, LabVIEW, Processing 3.0/Java, Arduino</li>
+                                <li class="skill"><b>Software:</b> Solidworks, Creo (Pro-E), Linux, GIT, SVN, Atlassian JIRA & Confluence, Photoshop</li>
+                                <li class="skill"><b>Certifications:</b> Solidworks CSWA Certification, Licensed Radio Operator: Technician, First Aid & CPR, Personal Watercraft License</li>
 							</ul>
 						</div>
 					</section>
 					<div class="clearfix"></div>
 				</section>
-
-
-				<section class="resume-section">
-						<section class="sectionLeft">
-							<h2 class="resumeSection color">Certifications</h2>
-						</section>
-						<section class="sectionRight">
-							<div id="skills" class="list">
-								<ul class="skills">
-									<li class="skill"><a class="color" href="Solidworks Certification_Samela.pdf">Solidworks CSWA Certification</a></li>
-									<li class="skill"><a class="color" href="2522089820161141634260E.pdf">Licensed Radio Operator: Technician</a></li>
-								</ul>
-							</div>
-						</section>
-						<div class="clearfix"></div>
+                
+                <section class="resume-section">
+					<section class="sectionLeft">
+						<h2 class="resumeSection color">Leadership</h2>
 					</section>
-
-				
+					<section class="sectionRight">
+						<div id="skills" class="list">
+							<ul class="skills">
+                                <li class="skill"><b>Webmaster</b> WPI Satellite Development Club, WPI, August 2014 – August 2016</li>
+                                <li class="skill"><b>Eagle Scout</b> with Silver Palm, Troop 640, Hamden, CT, 2006 – 2012</li>
+                            </ul>
+						</div>
+					</section>
+					<div class="clearfix"></div>
+				</section>
+                
+                <section class="resume-section">
+	                <form method="get" action="resume.pdf">
+	                    <input type="image" src="icons/save.svg" alt="Download as PDF" tabindex="1" style="width:3em"/>
+                    </form>
+                </section>
 			</div>
 		</div>
+    </div>
 </body>
 
 <script>
