@@ -24,11 +24,13 @@ h2:hover {
 @media (max-width: 768px) {
     h1{font-size: 17vw}
     h2{vertical-align: center}
+    p{vertical-align: center}
 }
 
 @media (min-width: 768px) {
     h1{font-size: 9vw}
     h2{margin-left: 0.5em}
+    p{margin-left: 0.5em}
 }
 
 #social-media{

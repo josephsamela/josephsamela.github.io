@@ -55,16 +55,29 @@ function padZero(str, len) {
   return (zeros + str).slice(-len);
 }
 
+// Change link color
+function colorLinks(hex)
+{
+    var links = document.getElementsByTagName("a");
+    for(var i=0;i<links.length;i++)
+    {
+        if(links[i].href)
+        {
+            links[i].style.color = hex;  
+        }
+    }  
+}
 
 // Generate Random Color and its compliment
 var color = getRandomColor();
 var compliment = invertColor(color);
 
+// Change link color
+colorLinks(compliment)
 
 // Set background to color, set header and content to compliment
 document.body.style.background = color;
 document.body.style.color = compliment;
-
 
 // Change mobile chrome navbar color to compliment
 var allMetaElements = document.getElementsByTagName('meta');
@@ -73,4 +86,5 @@ for (var i=0; i<allMetaElements.length; i++) {
      allMetaElements[i].setAttribute('content', compliment);
      break;
   } 
-} 
+}
+
