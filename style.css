@@ -30,7 +30,7 @@ h2:hover {
 @media (min-width: 768px) {
     h1{font-size: 9vw}
     h2{margin-left: 0.5em}
-    p{margin-left: 0.5em}
+    p{margin-left: 2em}
 }
 
 #social-media{
@@ -44,7 +44,7 @@ h2:hover {
 
 a:link {
     color: inherit;
-    text-decoration:  none;
+    text-decoration: none;
 }
 
 @font-face {
