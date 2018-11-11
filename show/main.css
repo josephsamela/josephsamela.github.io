@@ -1,5 +1,5 @@
 body {
-    max-width: 480px;
+    max-width: 416px;
     margin: auto;
     font-family: 'Open Sans', sans-serif;
     background: #e5e7e9;
@@ -19,6 +19,7 @@ body {
 video {
     width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 audio {
     width: 100%;
@@ -50,6 +51,7 @@ img {
     display: inline-block;
     vertical-align: sub;
     margin: 1em 1em 0px 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .link {
@@ -71,7 +73,8 @@ img {
 }
 
 h1 {
-    margin: 0px
+    margin: 0px;
+    color: black;
 }
 p {
     margin: 0px;
@@ -79,4 +82,8 @@ p {
 }
 a {
     color: #525a64
+}
+
+.description {
+    padding-right: 16px;
 }
