@@ -6,10 +6,6 @@ body {
     background: #e5e7e9;
 }
 
-.container {
-    max-width: 384px;
-}
-
 .wrapper {
     overflow: hidden;
     height: 100vh;
@@ -17,13 +13,14 @@ body {
 }
 
 .card {
-    margin: 1em 0em 0em 0em;
+    /* margin: 1em 0em 0em 0em; */
     background: #eff1f3;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     border-radius: 4px;
     overflow: hidden;
-    width: 384px;
+    width: 100%;
+    max-width: 310px;
     z-index: 1;
 }
 .card:hover {
@@ -32,7 +29,7 @@ body {
 
 
 .profile {
-    max-width: 150px;
+    max-width: 120px;
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
@@ -40,8 +37,8 @@ body {
 
 .user {
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
+    /* margin-right: auto; */
+    margin-top: 1.5em;
 }
 
 .info {
@@ -65,7 +62,7 @@ img {
 h1 {
     margin: 0px;
     color: black;
-    font-size: 1.6em
+    font-size: 1.4em
 }
 
 p {
