@@ -36,6 +36,7 @@ body {
 }
 
 .user {
+    text-align: center;
     margin-left: auto;
     /* margin-right: auto; */
     margin-top: 1.5em;
@@ -67,9 +68,30 @@ h1 {
 
 p {
     margin: 0px;
-    color: #525a64
+    color: #525a64;
+    letter-spacing:1px;
 }
 
 a {
-    color: #525a64
+    color: #525a64;
+    letter-spacing:0px;
+    text-decoration:none;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    transition: 0.3s;
+}
+a:hover {
+    border-width: 5px
+}
+a:nth-child(1){
+    border-color: #ff5c72;
+}
+a:nth-child(2){
+    border-color: #72d9b2;
+}
+a:nth-child(3){
+    border-color: #65a4f4;
 }
