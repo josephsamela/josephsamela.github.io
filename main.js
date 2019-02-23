@@ -1,36 +1,17 @@
-var canvas = document.getElementById("canvas");
-var ctx = canvas.getContext("2d");
-
-var size = 3840;
-canvas.style.width = size + "px";
-canvas.style.height = size + "px";
-var scale = window.devicePixelRatio;
-canvas.width = size * scale;
-canvas.height = size * scale;
-
-// Normalize coordinate system to use css pixels.
-ctx.scale(scale, scale);
-var button = document.getElementById("refresh");
-
-var refresh = function () {
-
-    ctx.clearRect(0, 0, 3840, 3840);
-    for (i = 0; i < 5000; i++) {
-
-        var x = Math.floor(Math.random() * 3840);
-        var y = Math.floor(Math.random() * 3840);
-        var radius = Math.floor(Math.random() * 200);
-
-        // cyan, red, green, blue, yello
-        // var colors = ["#51e1f5", "#ff5c72", "#72d9b2", "#65a4f4", "#fee25e"];
-        var colors = ["#ff5c72", "#72d9b2", "#65a4f4"];
-
-        ctx.beginPath();
-        ctx.arc(x, y, radius, Math.PI * 2, 0, false);
-        ctx.fillStyle = colors[Math.floor(Math.random() * colors.length)];
-        ctx.fill();
-        ctx.closePath();
-    }
+// Set background and <p> to random color
+var colors = ["#51e1f5", "#ff5c72", "#72d9b2", "#65a4f4", "#fee25e"];
+var color = colors[Math.floor(Math.random() * colors.length)];
+document.body.style.backgroundColor = color;
+var p = document.getElementsByTagName("p");
+for (var i = 0; i < p.length; i++) {
+    p[i].style.color = color;
 }
 
-refresh();
+// Change mobile chrome navbar color to compliment
+var allMetaElements = document.getElementsByTagName('meta');
+for (var i=0; i<allMetaElements.length; i++) {
+if (allMetaElements[i].getAttribute("name") == "theme-color") {
+    allMetaElements[i].setAttribute('content', color);
+    break;
+}
+}
