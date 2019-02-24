@@ -1,5 +1,7 @@
 # Projects
 
+> If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (Thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
+
 ## [Lakecam](https://josephsamela.github.io/lakecam/)
 Lakecam is Raspberry Pi controlled webcam that posts to Instagram and streams to YouTube. It was developed for Quaboag Lakecam Project but could be useful for other applications too!
 
