@@ -3,7 +3,7 @@
   <channel>
     <title>Host The World</title>
     <link>https://josephsamela.github.io/show/feed.rss</link>
-    <description>Description of podcast</description>
+    <description>A show about the internet, how it's built and the people who use it.</description>
     <atom:link href="https://josephsamela.github.io/show/feed.rss" rel="self"/>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
@@ -13,16 +13,16 @@
       <link>https://josephsamela.github.io/show/feed.rss</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Mar 2019 02:36:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 Mar 2019 02:51:47 +0000</lastBuildDate>
     <itunes:block>yes</itunes:block>
     <itunes:complete>yes</itunes:complete>
     <item>
-      <title>0-audio.mp3</title>
-      <link>https://josephsamela.github.io/show/0-audio.mp3</link>
-      <description>0-audio.mp3</description>
-      <guid isPermaLink="false">https://josephsamela.github.io/show/0-audio.mp3</guid>
-      <enclosure url="https://josephsamela.github.io/show/0-audio.mp3" length="1198080" type="audio/mpeg"/>
-      <pubDate>Fri, 22 Feb 2019 03:36:57 +0000</pubDate>
+      <title>0 - Introduction</title>
+      <link>https://josephsamela.github.io/show/0 - Introduction.mp3</link>
+      <description>0 - Introduction</description>
+      <guid isPermaLink="false">https://josephsamela.github.io/show/0 - Introduction.mp3</guid>
+      <enclosure url="https://josephsamela.github.io/show/0 - Introduction.mp3" length="1198080" type="audio/mpeg"/>
+      <pubDate>Fri, 22 Feb 2019 03:51:47 +0000</pubDate>
       <itunes:duration>01:09</itunes:duration>
       <itunes:order>1</itunes:order>
     </item>
