@@ -26,5 +26,15 @@
       <itunes:duration>01:09</itunes:duration>
       <itunes:order>1</itunes:order>
     </item>
+    <item>
+      <title>19.01 - phpVirtualBox</title>
+      <link>https://josephsamela.github.io/show/0 - Introduction.mp3</link>
+      <description>0 - Introduction</description>
+      <guid isPermaLink="false">https://josephsamela.github.io/show/0 - Introduction.mp3</guid>
+      <enclosure url="https://josephsamela.github.io/show/0 - Introduction.mp3" length="1198080" type="audio/mpeg"/>
+      <pubDate>Fri, 1 Mar 2019 03:51:47 +0000</pubDate>
+      <itunes:duration>01:09</itunes:duration>
+      <itunes:order>1</itunes:order>
+    </item>
   </channel>
 </rss>
