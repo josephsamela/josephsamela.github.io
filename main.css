@@ -10,8 +10,7 @@ body {
 
 .card {
     width: 575px;
-/*     height: 250px; */
-    height: fit-content;
+    height: 250px;
     position: absolute;
     top: 0;
     bottom: 0;
