@@ -11,7 +11,7 @@ Social media is hard. The algorithem expects consistant uploads with unique cont
 ---
 
 ## [OBS Macro Scene Switcher](https://josephsamela.github.io/obs-macro-scene-switcher/)
-$150 streamdeck - seriously?! Grab some keyboard switches, an arduino micro, altoids tin and hot-glue and start switching OBS scenes on the cheap with this homemade macro keyboard. Features 5 programmable macro keys - each bound to a OBS scene. While streaming switch scenes like a champion with the *OBS Macro Scene Switcher*
+$150 streamdeck - seriously?! Grab some keyboard switches, an arduino micro, altoids tin and hot-glue. Start switching OBS scenes on the cheap with this homemade macro keyboard. Features 5 programmable macro keys - each bound to a OBS scene. While streaming, switch scenes like a champion with the *OBS Macro Scene Switcher*.
 
 ---
 
