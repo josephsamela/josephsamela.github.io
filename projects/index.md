@@ -73,5 +73,24 @@ This application turns any image into a beautiful LEGO mosaic compatible with Le
 
 ---
 
+## [Message Matrix](https://josephsamela.github.io/messagematrix/)
+The message matrix is an internet connected LED display *YOU* can send messages! This display has **ONE** job. When POST requests containg messages are recieved - display the message!
+
+Awesome integration with *Home Automation* projects! 
+* Working on a smart weather-station? Send weater reports to the display!
+* Smart coffee maker? Get notified when your brew is ready!
+* Smart sprinkler system? Get notfications to water your plants!
+* Email alerts!
+* Calendar reminders!
+* Git commits!
+* Music artist information!
+* Package delivery status!
+* Solar panel performance!
+* Any project can be integrated, just send a post request!
+
+If you can POST it, you can display it with ***Message Matrix***!
+
+---
+
 ## [Pumpkin Lounge Rush](https://josephsamela.github.io/Pumpkin-Lounge-Rush/)
 This game was originally written for a large format LED matrix display part of an iteractive art exhibit. It has since been ported to MacOS, Windows and Android! The game was written in Processing 3.0 and was ported to mobile via “Android Mode”. Pumpkin Lounge Rush You will laugh, cry and love. Join the world on this extraordinary one-of-a-kind adventure. 
