@@ -21,7 +21,7 @@ Docker is powerful. Docker has a learning curve. Docker is a giant whale with a 
 ---
 
 ## [canvas-random-circles-artwork](https://josephsamela.github.io/canvas-random-circles-artwork/)
-Randomized colorful circle artwork with html canvas. Click to regenerate another work of art!
+Every artist has their medium. From the ancient to the modern - each medium guides the artist with a framework of expression. My medium? The html5 canvas. Inspired by Jackson Pollock and the Mozilla Internet Health Report I present *canvas-random-circles-artwork* a randomly-generated work of digital art!
 
 ---
 
