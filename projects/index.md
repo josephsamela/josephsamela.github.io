@@ -36,7 +36,9 @@ Here's the situation - I need to mirror a remote webpage locally. Problem is - t
 ---
 
 ## [colorize-tabs](https://josephsamela.github.io/colorize-tabs/)
-Since Chrome 39 shipped with Android Lollipop in 2014 websites can use theme-color to customize the browser toolbar. Unfortunately theme-color still remains unsupported on the desktop - just light gray with favicons. Introducing "Colorize Tabs" the browser extension that colors tabs to match a website's theme-color.
+Since Chrome 39 shipped with Android Lollipop in 2014 websites can use theme-color to customize the browser toolbar. Unfortunately theme-color still remains unsupported on the desktop - just light gray with favicons. This makes me sad - so I decided to take action. Introducing "Colorize Tabs" the browser extension that colors tabs to match a website's theme-color.
+
+Seriously, this is *real*! If you use Firefox and wish the web was a more beautiful place - consider trying my first browser extension.
 
 ---
 
