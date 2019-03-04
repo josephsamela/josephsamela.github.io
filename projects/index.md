@@ -47,6 +47,25 @@ Hyper-V Quick Create is great - but making that `.json` gallery is a massive pai
 
 ---
 
+## [Message Matrix](https://josephsamela.github.io/messagematrix/)
+The message matrix is an internet connected LED display *YOU* can send messages! This display has **ONE** job. When POST requests containg messages are recieved - display the message!
+
+Awesome integration with *Home Automation* projects! 
+* Working on a smart weather-station? Send weater reports to the display!
+* Smart coffee maker? Get notified when your brew is ready!
+* Smart sprinkler system? Get notfications to water your plants!
+* Email alerts!
+* Calendar reminders!
+* Git commits!
+* Music artist information!
+* Package delivery status!
+* Solar panel performance!
+* Any project can be integrated, just send a post request!
+
+If you can POST it, you can display it with ***Message Matrix***!
+
+---
+
 ## [Tab-Switch-Protocol](https://josephsamela.github.io/Tab-Switch-Protocol/)
 This project uses the Digispark $0.99 micro-controller to make a fun macro-button for switching browser tabs! (or anything else)
 
@@ -73,22 +92,13 @@ This application turns any image into a beautiful LEGO mosaic compatible with Le
 
 ---
 
-## [Message Matrix](https://josephsamela.github.io/messagematrix/)
-The message matrix is an internet connected LED display *YOU* can send messages! This display has **ONE** job. When POST requests containg messages are recieved - display the message!
+## [Flask socketio chartist](https://josephsamela.github.io/flask-socketio-chartist.js/)
+When you to *real-time* signal data in a webpage. Flask + socketio + chartist.js is a killer combo. Here'a bare-bones flask app using socket.io to stream data to client drawing charts with Chartist.js! This example is ready to rock and roll! Install required python packages and run `main.py`. From there start hacking and make something amazing!
 
-Awesome integration with *Home Automation* projects! 
-* Working on a smart weather-station? Send weater reports to the display!
-* Smart coffee maker? Get notified when your brew is ready!
-* Smart sprinkler system? Get notfications to water your plants!
-* Email alerts!
-* Calendar reminders!
-* Git commits!
-* Music artist information!
-* Package delivery status!
-* Solar panel performance!
-* Any project can be integrated, just send a post request!
+---
 
-If you can POST it, you can display it with ***Message Matrix***!
+## [LED Weather Station](https://josephsamela.github.io/led-matrix-weatherstation/)
+Beautiful LED Matrix to display the weather! Powered by the Raspberry Pi and Adafruit RGB Matrix Hat. This project will brighten your living room (literally) with the weather displayed on georgous LED matrix. If I did this over, I would select a different weather API but the project is finished and the lesson learned. Fantastic conversation piece 10/10 💯.
 
 ---
 
