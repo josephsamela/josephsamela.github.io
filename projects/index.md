@@ -1,9 +1,13 @@
 # Projects
 
-> If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (Thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
+## If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
+
+---
 
 ## [IFTTT Webhook Notifications](https://josephsamela.github.io/ifttt-webhook-notifications/)
 IFTTT offers free-no-strings-attached webhooks for use in personal projects. I've been experimenting with these on my latest Raspberry Pi project to send notifications to my phone. The project is an always-active webcam pointed at a scenic vista that posts to Instagram and streams to Youtube. When a job finishes, or error occurs I get immediately notified - pretty cool! Here are some examples to help get *you* get started!
+
+---
 
 ## [Lakecam](https://josephsamela.github.io/lakecam/setup)
 Social media is hard. The algorithem expects consistant uploads with unique content, and I just don't have the time. So I built `Lakecam` a Raspberry Pi controlled webcam that posts to Instagram and streams to YouTube. It was developed for Quaboag Lakecam Project but could be useful for other applications too!
