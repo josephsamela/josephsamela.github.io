@@ -5,18 +5,18 @@
 ## [IFTTT Webhook Notifications](https://josephsamela.github.io/ifttt-webhook-notifications/)
 IFTTT offers free-no-strings-attached webhooks for use in personal projects. I've been experimenting with these on my latest Raspberry Pi project to send notifications to my phone. The project is an always-active webcam pointed at a scenic vista that posts to Instagram and streams to Youtube. When a job finishes, or error occurs I get immediately notified - pretty cool! Here are some examples to help get *you* get started!
 
-## [Lakecam](https://josephsamela.github.io/lakecam/)
-Lakecam is Raspberry Pi controlled webcam that posts to Instagram and streams to YouTube. It was developed for Quaboag Lakecam Project but could be useful for other applications too!
+## [Lakecam](https://josephsamela.github.io/lakecam/setup)
+Social media is hard. The algorithem expects consistant uploads with unique content, and I just don't have the time. So I built `Lakecam` a Raspberry Pi controlled webcam that posts to Instagram and streams to YouTube. It was developed for Quaboag Lakecam Project but could be useful for other applications too!
 
 ---
 
 ## [OBS Macro Scene Switcher](https://josephsamela.github.io/obs-macro-scene-switcher/)
-$150 streamdeck - seriously?! Switch OBS scenes on the cheap with this homemade macro keyboard.
+$150 streamdeck - seriously?! Grab some keyboard switches, an arduino micro, altoids tin and hot-glue and start switching OBS scenes on the cheap with this homemade macro keyboard. Features 5 programmable macro keys - each bound to a OBS scene. While streaming switch scenes like a champion with the *OBS Macro Scene Switcher*
 
 ---
 
 ## [docker-flask-hello-world](https://josephsamela.github.io/docker-flask-hello-world/)
-Simplest flask app you can build with docker!
+Docker is powerful. Docker has a learning curve. Docker is a giant whale with a shipping container backpack. Start off small and build up with the simplest flask app you can make with docker! This example walks through setting up a dockerfile, organizing your container and packaing your app. Good luck!
 
 ---
 
@@ -26,7 +26,7 @@ Randomized colorful circle artwork with html canvas. Click to regenerate another
 ---
 
 ## [Elasticsearch-jquery-example](https://josephsamela.github.io/elasticsearch-jquery-example/)
-Dead simple example to POST and GET data from Elasticsearch using jquery!
+The web is a wild place with no instruction manual. Some say querying a database is the job of servers. I say it's every-man-for-himself - there ain't no model-view-controller gonna hold me down. Here's a dead simple example to POST and GET data from Elasticsearch using jquery - directly from the browser. Live dangerously.🌵☠️⚡
 
 ---
 
@@ -53,7 +53,7 @@ This project uses the Digispark $0.99 micro-controller to make a fun macro-butto
 ---
 
 ## [Note](https://josephsamela.github.io/note/)
-A Simple & Fast note taking utility for the command line. 
+I'm a simple man. When I get thoughts, I write them down. I don't open another tab, enter incognito mode, log into my personal account then create a new note that get's synced throughout all time and space. Hell, I don't even leave the terminal. I just type `note` and start writing. `note` is a Simple & Fast note taking utility for the command line. Use the lightning-quick cli text editor you love and let `note` organize all your notes in the background. . 
 
 ---
 
@@ -65,7 +65,9 @@ Don’t get me wrong I love the analog experience of good old-fashion dice rolls
 ---
 
 ## [Mosaic for Lego Digital Designer](https://josephsamela.github.io/Mosaic-for-Lego-Digital-Designer/)
-This application turns images into beautiful LEGO mosaics compatible with Lego Digital Designer!
+At a LEGO convention I saw a velocoraptor statue made from legos and was instatly intruged. LEGO has artists built a metal skeleton for the piece, then laborously contructed a shell from LEGO bricks. I thought this was fastenating and immediately started to hypothesize a machine for "printing" these sculptures. I drew up schematics for a gigantic 3D printer contraption with a carrosel of 6ft-long magazines containing LEGO bricks of every color. Then I saw how much LEGO *cost*. I will stick with 2D for now...
+
+This application turns any image into a beautiful LEGO mosaic compatible with Lego Digital Designer!
 
 ---
 
