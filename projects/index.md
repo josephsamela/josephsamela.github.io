@@ -1,6 +1,6 @@
 # Projects
 
-## If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
+> ## If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
 
 ---
 
