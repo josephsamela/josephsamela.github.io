@@ -9,7 +9,7 @@ IFTTT offers free-no-strings-attached webhooks for use in personal projects. I'v
 
 ---
 
-## [Lakecam](https://josephsamela.github.io/lakecam/setup)
+## [Lakecam](https://josephsamela.github.io/lakecam/)
 Social media is hard. The algorithem expects consistant uploads with unique content, and I just don't have the time. So I built `Lakecam` a Raspberry Pi controlled webcam that posts to Instagram and streams to YouTube. It was developed for Quaboag Lakecam Project but could be useful for other applications too!
 
 ---
