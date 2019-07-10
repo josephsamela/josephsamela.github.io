@@ -2,6 +2,14 @@
 
 > ## If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
 
+## [weather-util-flask-api](https://josephsamela.github.io/weather-util-flask-api/)
+Get simple, light, human-readable, weather reports. Flask wrapper around weather-util application.
+
+---
+
+## [text.npr.org-daily-article-downloader](https://josephsamela.github.io/text.npr.org-daily-article-downloader/)
+Need news from the USA? Whatever your reason (archive, offline reading, tickerboard displays, etc.) get fresh news stories from National Public Radio in plaintext. This shell script downloads articles from the frontpage of https://text.npr.org as individual .txt files.
+
 ---
 
 ## [IFTTT Webhook Notifications](https://josephsamela.github.io/ifttt-webhook-notifications/)
