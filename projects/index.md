@@ -3,12 +3,18 @@
 > ## If there's one thing I love - it's a QUALITY weekend project.   Electronics, software, computers, science, radio and lots goofing around.  Mostly I break stuff -- but every so often I finish a project so cool it must be shared!  If you like my projects (thank you!) consider joining my quest to [HOST THE WORLD](https://josephsamela.github.io/show/).
 
 ## [weather-util-flask-api](https://josephsamela.github.io/weather-util-flask-api/)
-Get simple, light, human-readable, weather reports. Flask wrapper around weather-util application.
+Flask wrapper around [weather-util](http://fungi.yuggoth.org/weather/) that provides simple, light, human-readable, weather reports.
+
+* **simple** - No ads, no banners, no fancy interactive trackers. Visit /your-zip-code and get the weather report.
+
+* **light** - no javascript, no css, no images, no icons, not even a favicon.
+
+* **human-readable** - No mind-numbing XML from this API. Simple easy to read plaintext reports designed for humans.
 
 ---
 
 ## [text.npr.org-daily-article-downloader](https://josephsamela.github.io/text.npr.org-daily-article-downloader/)
-Need news from the USA? Whatever your reason (archive, offline reading, tickerboard displays, etc.) get fresh news stories from National Public Radio in plaintext. This shell script downloads articles from the frontpage of https://text.npr.org as individual .txt files.
+Need news from the USA? Whatever your reason (archive, offline reading, tickerboard displays, etc.) get fresh news stories from National Public Radio in plaintext. This shell script downloads articles from the frontpage of [https://text.npr.org](https://text.npr.org) as individual .txt files.
 
 ---
 
