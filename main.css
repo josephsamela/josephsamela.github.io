@@ -24,6 +24,12 @@ img {
     width: 100%;
     border: white solid 2px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 500ms ease;
+}
+
+img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    transition: box-shadow 500ms ease;
 }
 
 .bio {
