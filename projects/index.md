@@ -4,6 +4,14 @@
 
 ---
 
+## [Find-the-red-car](https://github.com/JosephSamela/computer-vision-color-based-search)
+
+Special forces mobilize! Computer vision activate! Enhance! 
+
+In this exercise I use the python imaging library to locate red cars from aerial images of parking lots. To understand the surveillance state...you must become the surveillance state! Wait, that can't be right...
+
+---
+
 ## [weather-util-flask-api](https://josephsamela.github.io/weather-util-flask-api/)
 Flask wrapper around [weather-util](http://fungi.yuggoth.org/weather/) that provides simple, light, human-readable, weather reports.
 
