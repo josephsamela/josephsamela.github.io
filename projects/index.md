@@ -27,6 +27,10 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 >Need news from the USA? Whatever your reason (archive, offline reading, tickerboard displays, etc.) get fresh news stories from National Public Radio in plaintext. This shell script downloads articles from the frontpage of [https://text.npr.org](https://text.npr.org) as individual .txt files.
 
 ---
+>## [Micro Service Log Tool](https://josephsamela.github.io/micro-service-log-tool/)
+This API is an http server written in Python that can receive, store and retrieve log events. Logs submitted as easy-to-understand json using universally comaptible AJAX and SQLite database to store logs messages. Features a nifty set of test-panels for testing the API `/submit` and `/search` endpoints.
+
+---
 
 >## [IFTTT Webhook Notifications](https://josephsamela.github.io/ifttt-webhook-notifications/)
 >IFTTT offers free-no-strings-attached webhooks for use in personal projects. I've been experimenting with these on my latest Raspberry Pi project to send notifications to my phone. The project is an always-active webcam pointed at a scenic vista that posts to Instagram and streams to Youtube. When a job finishes, or error occurs I get immediately notified - pretty cool! Here are some examples to help get *you* get started!
