@@ -4,7 +4,7 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 
 ---
 
->## [Find-the-red-car](https://github.com/JosephSamela/computer-vision-color-based-search)
+>## [Find-the-red-car](https://josephsamela.github.io/computer-vision-color-based-search/)
 >
 >Special forces mobilize! Computer vision activate! Enhance! 
 >
