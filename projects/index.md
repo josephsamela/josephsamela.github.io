@@ -6,7 +6,7 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 
 >## [Learning-QuTiP](https://josephsamela.github.io/learning-qutip/)
 >
->Quantum computing is confusing! Setting up your environment shouldn’t be!
+>*Quantum computing is confusing! Setting up your environment shouldn’t be!*
 >
 >QuTiP is a library for python, but most tutorials provided by QuTiP documentation demonstrate it with iPython or Jupyter Notebook. The Python purist might scratch their head wondering if these tools are required? The answer is no.
 >
