@@ -4,6 +4,16 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 
 ---
 
+>## [Learning-QuTiP](https://josephsamela.github.io/learning-qutip/)
+>
+>Quantum computing is confusing! Setting up your environment shouldn’t be!
+>
+>QuTiP is a library for python, but most tutorials provided by QuTiP documentation demonstrate it with iPython or Jupyter Notebook. The Python purist might scratch their head wondering if these tools are required? The answer is no.
+>
+>This guide shows you how to setup your environment for QuTiP programming. The guide is written specially for debian linux, but If you’re using another distribution the setup process will be similar.
+
+---
+
 >## [Find-the-red-car](https://josephsamela.github.io/computer-vision-color-based-search/)
 >
 >Special forces mobilize! Computer vision activate! Enhance! 
@@ -28,7 +38,7 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 
 ---
 >## [Micro Service Log Tool](https://josephsamela.github.io/micro-service-log-tool/)
-This API is an http server written in Python that can receive, store and retrieve log events. Logs submitted as easy-to-understand json using universally comaptible AJAX and SQLite database to store logs messages. Features a nifty set of test-panels for testing the API `/submit` and `/search` endpoints.
+>This API is an http server written in Python that can receive, store and retrieve log events. Logs submitted as easy-to-understand json using universally comaptible AJAX and SQLite database to store logs messages. Features a nifty set of test-panels for testing the API `/submit` and `/search` endpoints.
 
 ---
 
