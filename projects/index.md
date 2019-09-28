@@ -4,6 +4,13 @@ If there's one thing I love - it's a QUALITY weekend project.   Electronics, sof
 
 ---
 
+>## [Mattermost Bot](https://josephsamela.github.io/mattermost-bot-python/)
+>*Mattermost Bot Written…in python!*
+> 
+>Get started writting a mattermost bot with this helpful (and mildly starwars themed) guide! Included is a hello-world example written in python with the `requests` library.
+
+---
+
 >## [Learning-QuTiP](https://josephsamela.github.io/learning-qutip/)
 >
 >*Quantum computing is confusing! Setting up your environment shouldn’t be!*
