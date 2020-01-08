@@ -1,7 +1,8 @@
+
 function update() {
     
     // Set background and <p> to random color
-    var colors = ["#51e1f5", "#ff5c72", "#72d9b2", "#65a4f4", "#fee25e"];
+    var colors = ["#1BE7FF", "#6EEB83", "#E4FF1A", "#E8AA14", "#FF5714"];
     var color = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = color;
     var p = document.getElementsByTagName("p");
@@ -18,6 +19,5 @@ function update() {
         }
     }
 }
-
 
 update();
