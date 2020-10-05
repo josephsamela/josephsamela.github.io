@@ -2,7 +2,7 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0px;
-    background: salmon;
+    background: #8f8e95;
     color: white;
     border: white solid 1em;
     box-sizing: border-box;
@@ -49,7 +49,7 @@ img:hover {
 h1 {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 2.75em;
-    margin: 0em 0px 0.5em 0px
+    margin: 0em 0px 0px 0px
 }
 
 p {
@@ -58,7 +58,7 @@ p {
 
 a {
     text-decoration: none;
-    color: salmon;
+    color: #9bd1ff;
 }
 
 .link {
@@ -69,22 +69,26 @@ a {
 .social {
     display: flex;
     justify-content: space-between;
-    padding-top: 1em;
+    padding-top: 0.25em;
     padding-bottom: 1em;
     margin-left: 0.25em;
     margin-right: 0.25em;
 }
 
+
 /*  COLUMN SETUP  */
+
 .col {
     /* display: block; */
     float: left;
-    max-width: 250px;
+    max-width: 255px;
     height: 250px;
     margin: 1em;
 }
 
+
 /*  GROUPING  */
+
 .group:before,
 .group:after {
     content: "";
@@ -99,7 +103,9 @@ a {
     zoom: 1;
 }
 
+
 /*  GRID OF TWO  */
+
 .span_2_of_2 {
     width: 100%;
 }
@@ -108,23 +114,21 @@ a {
     width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 601 PIXELS */
-@media only screen and (max-width: 601px) {
 
+/*  GO FULL WIDTH AT LESS THAN 601 PIXELS */
+
+@media only screen and (max-width: 601px) {
     .span_2_of_2,
     .span_1_of_2 {
         width: 100%;
     }
-
     .col {
         margin: 1em 0px 0px 0px;
     }
-
     .card {
         width: 250px;
         height: 567px;
     }
-
     .col:nth-child(2) {
         height: auto;
     }
