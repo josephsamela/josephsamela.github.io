@@ -1,3 +1,11 @@
+function switchpic() {
+    document.getElementById('photo').src = "images/photo2.jpg"
+}
+
+function switchpic2() {
+    document.getElementById('photo').src = "images/photo.jpg"
+}
+
 function update() {
 
     // Set background and <p> to random color
@@ -20,4 +28,4 @@ function update() {
     }
 }
 
-update();
+// update();
