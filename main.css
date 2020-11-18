@@ -2,7 +2,7 @@ body {
     height: 100vh;
     width: 100vw;
     margin: 0px;
-    background: #8f8e95;
+    background: #000000;
     color: white;
     border: white solid 1em;
     box-sizing: border-box;
@@ -10,8 +10,8 @@ body {
 
 .card {
     width: 575px;
-    /*height: 250px;*/
-    height: 300px;
+    /* height: 250px; */
+    height: 350px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -33,7 +33,7 @@ img:hover {
     transition: box-shadow 500ms ease;
 }
 
-.bio {
+.title {
     text-align: center;
 }
 
@@ -56,7 +56,12 @@ p {
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
+.bio {
+    text-align: justify;
+}
+
 a {
+    font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: none;
     color: #9bd1ff;
 }
@@ -112,18 +117,21 @@ a {
 
 .span_1_of_2 {
     width: 49.2%;
+    margin-top: 3em;
 }
 
 
 /*  GO FULL WIDTH AT LESS THAN 601 PIXELS */
 
 @media only screen and (max-width: 601px) {
-    .span_2_of_2,
+    .span_2_of_2 {
+        padding-top: 1em;
+    }
     .span_1_of_2 {
         width: 100%;
     }
     .col {
-        margin: 1em 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
     .card {
         width: 250px;
