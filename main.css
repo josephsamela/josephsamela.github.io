@@ -57,13 +57,20 @@ p {
 }
 
 .bio {
-    text-align: justify;
+    /*text-align: justify;*/
+    padding: 0em 0.25em 0.25em 0.25em;
 }
 
 a {
     font-family: 'IBM Plex Sans', sans-serif;
     text-decoration: none;
-    color: #fc9546;
+    color: #FFFFFF;
+    font-weight: bold;
+    /*color: #fc9546;*/
+}
+
+a:hover {
+    color: #ffc95b;
 }
 
 .link {
@@ -80,6 +87,15 @@ a {
     margin-right: 0.25em;
 }
 
+
+.ribbon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.25em;
+    padding-bottom: 0px;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+}
 
 /*  COLUMN SETUP  */
 
@@ -134,7 +150,7 @@ a {
         margin: 0px 0px 0px 0px;
     }
     .card {
-        width: 250px;
+        width: 251px;
         height: 567px;
     }
     .col:nth-child(2) {
