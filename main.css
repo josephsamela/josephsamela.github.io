@@ -4,33 +4,29 @@ body {
     margin: 0px;
     background: #4f7ddb;
     color: white;
-    border: white solid 1em;
+    /* border: white solid 1em; */
     box-sizing: border-box;
 }
 
 .card {
     width: 575px;
     /* height: 250px; */
-    height: 350px;
+    height: 294px;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
     margin: auto;
+    border: white solid 2.5px;
+    border-radius: 5px;
+    padding: 1em;
 }
 
 img {
     border-radius: 100%;
     width: 100%;
-    border: white solid 2px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: box-shadow 500ms ease;
-}
-
-img:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
-    transition: box-shadow 500ms ease;
+    border: white solid 2.5px;
 }
 
 .title {
@@ -133,7 +129,7 @@ a:hover {
 
 .span_1_of_2 {
     width: 49.2%;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 
@@ -150,8 +146,9 @@ a:hover {
         margin: 0px 0px 0px 0px;
     }
     .card {
-        width: 251px;
+        width: 255px;
         height: 567px;
+        border: none;
     }
     .col:nth-child(2) {
         height: auto;
